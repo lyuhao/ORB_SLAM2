@@ -36,7 +36,11 @@
 #ifdef _MSC_VER
 #include <unordered_map>
 #else
+<<<<<<< HEAD
 #include <unordered_map>
+=======
+#include <tr1/unordered_map>
+>>>>>>> 132d92fc86ced1926c00509337fd40b445d9e29c
 #endif
 
 
@@ -50,7 +54,9 @@ namespace g2o {
       /**
        * hash struct for storing the matrix elements needed to compute the covariance
        */
+
       typedef std::unordered_map<int, double>     LookupMap;
+
     
     public:
       MarginalCovarianceCholesky();

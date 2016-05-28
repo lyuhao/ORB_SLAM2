@@ -38,6 +38,7 @@
 #include <unordered_map>
 #else
 #include <unordered_map>
+
 #endif
 
 namespace g2o {
@@ -223,7 +224,11 @@ namespace g2o {
       //! rows of the matrix
       int rows() const {return _rowBlockIndices.size() ? _rowBlockIndices.back() : 0;}
 
+<<<<<<< HEAD
       typedef std::unordered_map<int, MatrixType*> SparseColumn;
+=======
+      typedef std::tr1::unordered_map<int, MatrixType*> SparseColumn;
+>>>>>>> 132d92fc86ced1926c00509337fd40b445d9e29c
 
       SparseBlockMatrixHashMap(const std::vector<int>& rowIndices, const std::vector<int>& colIndices) :
         _rowBlockIndices(rowIndices), _colBlockIndices(colIndices)
