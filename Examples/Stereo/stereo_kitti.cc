@@ -28,10 +28,8 @@
 #include<opencv2/core/core.hpp>
 
 #include<System.h>
-<<<<<<< HEAD
+
 #include <unistd.h>
-=======
->>>>>>> 132d92fc86ced1926c00509337fd40b445d9e29c
 
 using namespace std;
 

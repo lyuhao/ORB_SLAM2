@@ -27,11 +27,9 @@
 
 #include "Thirdparty/DBoW2/DBoW2/FeatureVector.h"
 
-<<<<<<< HEAD
+
 #include<stdint.h>
-=======
-#include<stdint-gcc.h>
->>>>>>> 132d92fc86ced1926c00509337fd40b445d9e29c
+
 
 using namespace std;
 

@@ -91,11 +91,9 @@ namespace g2o {
       typedef std::set<Edge*>                           EdgeSet;
       typedef std::set<Vertex*>                         VertexSet;
 
-<<<<<<< HEAD
+
       typedef std::unordered_map<int, Vertex*>     VertexIDMap;
-=======
-      typedef std::tr1::unordered_map<int, Vertex*>     VertexIDMap;
->>>>>>> 132d92fc86ced1926c00509337fd40b445d9e29c
+
       typedef std::vector<Vertex*>                      VertexContainer;
 
       //! abstract Vertex, your types must derive from that one

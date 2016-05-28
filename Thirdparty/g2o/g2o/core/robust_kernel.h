@@ -30,7 +30,6 @@
 #ifdef _MSC_VER
 #include <memory>
 #else
-<<<<<<< HEAD
 #include <memory>
 #endif
 #include <Eigen/Core>
@@ -75,11 +74,9 @@ namespace g2o {
     protected:
       double _delta;
   };
-<<<<<<< HEAD
+
   typedef std::shared_ptr<RobustKernel> RobustKernelPtr;
-=======
-  typedef std::tr1::shared_ptr<RobustKernel> RobustKernelPtr;
->>>>>>> 132d92fc86ced1926c00509337fd40b445d9e29c
+
 
 } // end namespace g2o
 
